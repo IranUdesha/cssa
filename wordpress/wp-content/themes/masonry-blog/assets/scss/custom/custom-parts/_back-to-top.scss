@@ -1,0 +1,45 @@
+
+.mb-to-top {
+    
+    position: fixed;
+    display: none;
+    z-index: 999999999;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    opacity: 1;
+    text-align:center;
+    background:transparent;
+    -moz-transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;    
+    @include transation_delay(); 
+}
+
+.mb-to-top a {
+    
+    display: block;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    background-color: $theme_color;
+    color: #ffffff;
+    line-height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    transition-duration: 0.3s;
+}
+
+.mb-to-top a:hover {
+    
+    background-color: $alternate_color;
+    position: relative;
+    top: -15px;
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.3s;
+    color: #ffffff;
+}

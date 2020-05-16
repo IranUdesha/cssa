@@ -1,0 +1,216 @@
+
+// columns 
+
+.mb-row {
+
+    @include flex_row();
+}
+
+.mb-row-reverse {
+    
+    flex-direction: row-reverse;
+}
+
+// columns
+
+.mb-col {
+
+    @include flex_col(33.333333%);
+    padding:0 15px;
+}
+
+body.has-sidebar .masonry-article.mb-col {
+    
+    @include flex_col(50%);
+    padding: 0 15px;
+}
+
+
+// Container 
+
+.mb-container {
+
+    position: relative;
+    max-width: 1400px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    background:transparent; 
+}
+
+.mb-margin-auto {
+    
+    margin: auto;
+}
+
+.site-main {
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media( min-width: 992px ) {
+
+    .hide-large {
+        
+        display: none;
+    }
+}
+
+@media( max-width: 991px ) {
+
+    .hide-medium {
+        
+        display: none;
+    }
+}
+
+@media( max-width: 767px ) {
+
+    .hide-small {
+        
+        display: none;
+    }
+}
+
+
+// thumb 
+
+.thumb {
+
+    position: relative;
+}
+
+
+// Post categories 
+
+.post-cat-entries ul {
+
+    list-style:none;
+}
+
+.post-cat-entries ul li,
+.post-cat-entries ul li a {
+
+    display:inline-block;
+    text-transform:inherit;
+}
+
+.post-cat-entries ul li a {
+
+    line-height: 1.6;
+    font-size: 14px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+    color: #ffffff;
+    transition-duration: 0.3s;
+    background-color: $theme_color;
+}
+
+.post-cat-entries ul li a:hover {
+    
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.3s;
+    background-color: $alternate_color;
+}
+
+.post-cat-entries ul li:last-child {
+
+    margin-right: 0px;
+}
+
+
+// Style for Author & Date Meta 
+
+.post-author-date-meta ul {
+    
+    list-style: none;
+}
+
+.post-author-date-meta ul li {
+    
+    display: inline-block;
+    position:relative;
+}
+
+.author-icon svg,
+.post-date-meta-icon svg {
+
+    width: 17px;
+}
+
+.post-author-date-meta .post-author-meta a span.author-name {
+    
+    font-size: 14px;
+}
+
+.post-author-date-meta .post-date-meta {
+    
+    margin-left: 15px;
+}
+
+.post-author-date-meta .post-date-meta a {
+    
+    font-size: 14px;
+}
+
+
+.updated:not(.published),
+.mb-post-widget .entry-metas ul li.posted-date a:after {
+
+    display:none;
+}
+
+
+// Social icons 
+
+
+.social-icons ul {
+
+    list-style: none;
+}
+
+.social-icons ul li {
+    
+    display:inline-block;
+}
+
+.social-icons ul li a {
+
+    font-style: normal;
+    font-size:14px;
+    padding: 0 10px;
+}
+
+
+// Mask 
+
+.mask {
+
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom: 0;
+    z-index: 5;
+    background:rgba(0,0,0,0.1);
+    @include transation_delay();
+}
+
+// Post thumbnail 
+
+.post-thumb {
+
+    position: relative;
+}
+
+// permalink button 
+
+.post-content-link {
+
+    text-align:center;
+}
+

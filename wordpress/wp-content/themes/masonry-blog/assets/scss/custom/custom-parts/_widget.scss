@@ -1,0 +1,490 @@
+
+// Everything about widgets
+
+.widget {
+
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.widget select {
+    
+    width: 100%;
+    height: 43px;
+    padding:5px 10px;
+}
+
+.site-sidebar .widget:last-child,
+.site-footer .widget:last-child {
+
+    margin-bottom: 0px;
+}
+
+.site-sidebar .widget {
+
+    background-color: #ffffff;
+    border-radius: 0;
+}
+
+.canvas-sidebar-widget-area .widget {
+    
+    background-color: transparent;
+}
+
+.footer-widget-areas .widget {
+        
+    padding: 0px;
+}
+
+.widget .widget-title {
+
+    margin-bottom: 30px;
+
+}
+
+.widget .widget-title h3 {
+
+	color: #222222;
+}
+
+.widget.widget_search button[type="submit"] {
+
+    font-size: 20px;
+}
+
+
+.widget_archive ul, 
+.widget_categories ul, 
+.widget_recent_entries ul, 
+.widget_meta ul, 
+.widget_recent_comments ul, 
+.widget_rss ul, 
+.widget_pages ul, 
+.widget_nav_menu ul, 
+.widget_product_categories ul {
+
+    padding-left: 0;
+    list-style:none;
+}
+
+/*
+====================================================
+=
+= Auhtor widget @ secondary widget area
+=
+==========================================
+*/
+
+
+.mb-author-widget .widget-container {
+
+    text-align:center;
+}
+
+.mb-author-widget .author-thumbnail {
+
+    @include border_radius(100%);
+}
+
+.mb-author-widget .author-thumbnail img {
+    
+    max-width: 250px;
+    border-radius: 50%;
+    margin:0 auto;
+    object-fit: cover;
+    object-position: center center;
+    -ms-object-fit: cover;
+    -webkit-object-fit: cover;
+    -moz-object-fit: cover;
+    -o-object-fit: cover;
+    -ms-object-position: center center;
+    -webkit-object-position: center center;
+    -moz-object-position: center center;
+    -o-object-position: center center;
+}
+
+.mb-author-widget .author-detail {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mb-author-widget .author-detail .author-name h3 {
+    
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.mb-author-widget .author-detail .author-social-links {
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.mb-author-widget .author-detail .author-social-links ul {
+    
+    text-align: center;
+    list-style: none;
+}
+
+.mb-author-widget .author-detail .author-social-links ul li {
+    
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.mb-author-widget .author-detail .author-social-links ul li a {
+    
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: $theme_color;
+    color: #ffffff;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.mb-author-widget .author-detail .author-social-links ul li a:hover {
+    
+    background-color: $alternate_color;
+}
+
+.mb-author-widget .author-detail .author-social-links ul li:last-child {
+    
+    margin-right: 0px;
+}
+
+.mb-author-widget .author-detail .author-description p {
+
+    font-size: 14px;
+}
+
+.mb-author-widget .author-permalink span {
+
+    display:inline-block;
+    padding:0 5px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; 
+}
+
+.mb-author-widget .author-permalink a {
+
+    padding: 15px 40px;
+}
+
+
+/*
+====================================================
+=
+= Social widget @ secondary widget area
+=
+==========================================
+*/
+
+.mb-social-widget-one .social-links ul {
+    
+    list-style: none;
+}
+
+.mb-social-widget-one .social-links ul li {
+    
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.mb-social-widget-one .social-links ul li:last-child {
+    
+    margin-right: 0px;
+}
+
+.mb-social-widget-one .social-links ul li:last-child a {
+
+    padding-right:0;
+}
+
+.mb-social-widget-two .social-links ul li {
+    
+    display: block;
+    margin-bottom: 15px;
+}
+
+.mb-social-widget-two .social-links ul li:last-child {
+
+    margin-bottom: 0px;
+}
+
+.canvas-sidebar-widget-area .mb-social-widget-one .social-links ul li a,
+.footer-widget-area .mb-social-widget-one .social-links ul li a,
+#secondary.site-sidebar .mb-social-widget-one .social-links ul li a,
+.canvas-sidebar-widget-area .mb-social-widget-two .social-links ul li a,
+.footer-widget-area .mb-social-widget-two .social-links ul li a,
+#secondary.site-sidebar .mb-social-widget-two .social-links ul li a {
+
+    color: #ffffff;
+}
+
+.mb-social-widget-one .social-links ul li a {
+    
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+}
+
+.mb-social-widget-two .social-links ul li a {
+    
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    color: #ffffff;
+    top: 0px;
+    transition-duration: 0.5s;
+    position: relative;
+}
+
+.mb-social-widget-two .social-links ul li a:hover {
+    
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+    top: -3px;
+    position: relative;
+    transition-duration: 0.5s;
+}
+
+.mb-social-widget-one .social-links ul li a.social-link-facebook,
+.mb-social-widget-two .social-links ul li a.social-link-facebook {
+    
+    background-color: #3b5998;
+}
+
+.mb-social-widget-one .social-links ul li a.social-link-twitter,
+.mb-social-widget-two .social-links ul li a.social-link-twitter {
+    
+    background-color: #00aced;
+}
+
+.mb-social-widget-one .social-links ul li a.social-link-instagram,
+.mb-social-widget-two .social-links ul li a.social-link-instagram {
+    
+    background-color: #bc2a8d;
+}
+
+.mb-social-widget-one .social-links ul li a.social-link-pinterest,
+.mb-social-widget-two .social-links ul li a.social-link-pinterest {
+    
+    background-color: #cb2027;
+}
+
+.mb-social-widget-one .social-links ul li a.social-link-youtube,
+.mb-social-widget-two .social-links ul li a.social-link-youtube {
+    
+    background-color: #bb0000;
+}
+
+.mb-social-widget-one .social-links ul li a.social-link-linkedin,
+.mb-social-widget-two .social-links ul li a.social-link-linkedin {
+    
+    background-color: #007bb6;
+}
+
+.mb-social-widget-one .social-links ul li a.social-link-vk,
+.mb-social-widget-two .social-links ul li a.social-link-vk {
+    
+    background-color: #45668e;
+}
+
+.mb-social-widget-two .social-links ul li a span {
+    
+    display: inline-block;
+}
+
+.mb-social-widget-two .social-links ul li a span:first-child {
+    
+    padding-left: 15px;
+}
+
+.mb-social-widget-two .social-links ul li a span:nth-child(2) {
+    
+    float: right;
+    width: 45px;
+    text-align: center;
+    border-left: 1px solid rgba(255,255,255,0.2);
+}
+
+
+
+/*
+====================================================
+=
+= Post widget @ secondary widget area
+=
+==========================================
+*/
+
+
+.mb-post-widget .post-widget-one article,
+.mb-post-widget .post-widget-two article {
+
+    margin-bottom:20px;
+    padding-bottom:20px;
+}
+
+.mb-post-widget .post-widget-one article:last-child,
+.mb-post-widget .post-widget-two article:last-child {
+
+    border-bottom:0;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+.mb-post-widget .post-widget-one article .the-title a,
+.mb-post-widget .post-widget-two article .the-title a {
+
+    line-height:1.4;
+    padding-bottom:5px;
+}
+
+.mb-post-widget .post-widget-one article.has-post-thumbnail .post-thumb img {
+
+    @include border_radius(100%);
+}
+
+.mb-post-widget .post-widget-two article.has-post-thumbnail .post-thumb img { 
+    
+    border-radius: 5px;
+}
+
+.mb-post-widget .post-widget-one article span.count, 
+.mb-post-widget .post-widget-two article span.count {
+
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #222222;
+    color: #ffffff;
+    margin-right: 10px;
+    border: 2px solid #ffffff;
+} 
+
+.mb-post-widget .post-widget-one article span.count {
+    
+    border-radius: 50%;    
+}
+
+.mb-post-widget .post-widget-two article span.count {
+    
+    border-radius: 5px;    
+}
+
+.mb-post-widget .post-widget-two article.has-post-thumbnail .post-thumb span.count {
+    
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 30px;
+    background-color: $theme_color;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    left: 5px;
+    top: 5px;
+}
+
+.mb-post-widget .post-widget-one article.has-post-thumbnail .post-thumb span.count {
+    
+    position: absolute;
+    left: 0;
+    top: -5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    background-color: $theme_color;
+    color: #ffffff;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+.mb-post-widget .post-widget-one article .post-author-date-meta,
+.mb-post-widget .post-widget-two article .post-author-date-meta {
+    
+    margin-top: 5px;
+}
+
+.mb-post-widget .post-widget-one article .post-author-date-meta ul,
+.mb-post-widget .post-widget-two article .post-author-date-meta ul {
+    
+    list-style: none;
+}
+
+.mb-post-widget .post-widget-one article .post-author-date-meta ul li,
+.mb-post-widget .post-widget-two article .post-author-date-meta ul li {
+    
+    display: inline-block;
+}
+
+.mb-post-widget .post-widget-one article .post-author-date-meta ul li:first-child,
+.mb-post-widget .post-widget-two article .post-author-date-meta ul li:first-child {
+    
+    margin-right: 10px;
+}
+
+.mb-post-widget .post-widget-one article .post-author-date-meta ul li.post-date-meta,
+.mb-post-widget .post-widget-two article .post-author-date-meta ul li.post-date-meta {
+    
+    margin-left: 0px;
+}
+
+.mb-post-widget .post-widget-one article .post-author-date-meta ul li a span.author-name,
+.mb-post-widget .post-widget-two article .post-author-date-meta ul li a span.author-name {
+    
+    margin-left: 0px;
+}
+
+.mb-post-widget .post-widget-one article .post-author-date-meta ul li a,
+.mb-post-widget .post-widget-one article .post-author-date-meta ul li a,
+.mb-post-widget .post-widget-two article .post-author-date-meta ul li a,
+.mb-post-widget .post-widget-two article .post-author-date-meta ul li a {
+    
+    font-size: 14px;
+}
+
+.mb-post-widget .post-widget-one article .post-author-date-meta ul li  a:hover,
+.mb-post-widget .post-widget-two article .post-author-date-meta ul li  a:hover {
+
+    color: $theme_color;
+}
+
+.mb-post-widget article .mb-row .mb-col:nth-child(1) {
+    
+    flex: 35%;
+    max-width: 35%;
+}
+
+.mb-post-widget article .mb-row .mb-col:nth-child(2) {
+    
+    flex: 65%;
+    max-width: 65%;
+}
+
+.mb-post-widget article.has-post-thumbnail .mb-row .mb-col:last-child {
+    
+    padding-left: 0px;
+}
+
+
+.mb-post-widget article.has-no-post-thumbnail .mb-row .mb-col {
+    
+    flex: 100%;
+    max-width: 100%;
+}

@@ -1,0 +1,213 @@
+
+// subscription
+
+.site-subscription {
+	
+	background-color: #ffffff;
+	padding: 50px 0px;
+	border: 15px solid transparent;
+	border-radius: 5px;
+	-webkit-border-image: url(../img/envelope-border.png) 30 round; /* Safari 3.1-5 */
+  	-o-border-image: url(../img/envelope-border.png) 30 round; /* Opera 11-12.1 */
+  	border-image: url(../img/envelope-border.png) 30 round;
+  	margin-bottom: 50px;
+}
+
+body.single .site-subscription {
+	
+	background-color: #ffffff;
+	padding: 60px 30px;
+	margin-top: 50px;
+}
+
+.site-subscription .subscription-container {
+	
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body.single .site-subscription .subscription-container {
+	
+	width: 100%;
+}
+
+.subscription-heading {
+
+	text-align: center;
+  	margin-bottom: 30px;
+}
+
+.subscription-heading-title {
+	
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.subscription-container h1,
+.subscription-container h2,
+.subscription-container h3,
+.subscription-container h4,
+.subscription-container h5,
+.subscription-container h6,
+.subscription-container p {
+	
+	margin-bottom: 10px;
+}
+
+.subscription-container a {
+	
+	color: $theme_color;
+}
+
+
+/* MailPoet Styling */
+
+.mailpoet_paragraph .mailpoet_submit {
+
+ 	display: block;
+  	width: 100%;
+}
+
+.mailpoet_paragraph .mailpoet_text_label {
+	
+	margin-bottom: 10px;
+}
+
+.mailpoet_text,
+.mailpoet_textarea {
+
+  	width: 100%;
+}
+
+.mailpoet_paragraph .mailpoet_text_label {
+	
+	margin-bottom: 10px;
+}
+
+/* MailChimp Styling */
+
+.mc4wp-form-fields label {
+	
+	margin-bottom: 10px;
+}
+
+.mc4wp-form-fields input[type="submit"] {
+	
+	width: 100%;
+}
+
+/* Layout One Style */
+
+.subscription-form-layout-one {
+	
+	position: relative;
+}
+
+.subscription-form-layout-one input[type="email"] {
+	
+	padding-right: 150px;
+}
+
+.subscription-form-layout-one input[type="submit"] {
+	
+	position: absolute;
+	width: auto;
+	right: 0;
+}
+
+/* Layout Two Style */
+
+.subscription-form-container.subscription-form-layout-two {
+	
+	position: relative;
+}
+
+.subscription-form-layout-two input[type="email"] {
+	
+	padding-right: 150px;
+	border-radius: 50px;
+}
+
+.subscription-form-layout-two input[type="submit"] {
+	
+	position: absolute;
+	width: auto;
+	right: 0;
+	border-radius: 50px;
+}
+
+/* Sidebar */
+.site-sidebar .subscription-heading {
+	
+	text-align: left;
+}
+
+.site-sidebar .subscription-heading-title {
+	
+	font-size: 18px;
+	font-weight: normal;
+	display: none;
+}
+
+@media ( max-width: 1024px ) { 
+	
+	.site-subscription {
+
+		margin-bottom: 40px;
+	}
+
+	body.single .site-subscription {
+
+		margin-top: 40px;
+	}
+}
+
+@media ( max-width: 991px ) { 
+	
+	.site-subscription .subscription-container {
+
+		width: 80%;
+	}
+}
+
+@media ( max-width: 767px ) { 
+	
+	.site-subscription .subscription-container {
+
+		width: 80%;
+	}
+}
+
+
+@media ( max-width: 575px ) {
+	
+	.site-subscription {
+
+		border-width: 10px;
+		padding: 30px 15px;
+		margin-bottom: 30px;
+	}
+
+	body.single .site-subscription {
+
+		margin-top: 30px;
+		padding: 30px 15px;
+	}
+
+	.site-subscription .subscription-container {
+
+		width: 100%;
+	}
+
+	.subscription-form-layout-two input[type="email"] {
+
+		padding-right: 0px;
+	}
+
+	.subscription-form-layout-two input[type="submit"] {
+
+		position: relative;
+		margin-top: 10px;
+	}
+}

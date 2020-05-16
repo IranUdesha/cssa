@@ -1,0 +1,50 @@
+.select2-container {
+
+	width: 100% !important;
+}
+
+.customize-control select,
+.select2-container--default .selection .select2-selection--single {
+
+	border: 1px solid #7e8993;
+	background: #fcfcff;
+	position: relative;
+	border-radius: 4px;
+	height: 30px;
+	line-height: 27px;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.select2-search--dropdown .select2-search__field {
+
+	padding: 0px 4px;
+}
+
+.wp-customizer .select2-container--default .selection .select2-selection--multiple {
+
+	border: 1px solid #7e8993;
+	background: #fcfcff;
+	border-radius: 4px;
+	height: auto;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.wp-customizer .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+
+	width: 95%;
+}
+
+.wp-customizer .select2-container--default .select2-selection--multiple .select2-selection__clear {
+
+	position: absolute;
+	right: 0;
+}
+
+.wp-customizer .select2-container .select2-dropdown {
+
+	z-index: 900000;
+}

@@ -1,0 +1,204 @@
+
+// color primary
+
+a,
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+.editor-entry a:hover,
+.widget .widget-title h3,
+.widget_tag_cloud .tagcloud a,
+.entry-tags .post-tags a {
+
+	color:$primary_color;
+}
+
+
+// color white 
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.post-format-icon,
+.post-link-btn,
+.post-link-btn:hover, 
+.mb-author-widget .author-permalink a:hover,
+.entry-tags .post-tags a:hover,
+.widget_rss .widget-title h3 a,
+.wpcf7 input[type="submit"],
+.wpcf7 input[type="button"],
+.jetpack_subscription_widget input[type="submit"],
+.screen-reader-shortcut,
+body .wpforms-container .wpforms-form input[type=submit], 
+body .wpforms-container .wpforms-form button[type=submit],
+body .wpforms-container .wpforms-form .wpforms-page-button  {
+
+	color: $white;
+}
+
+
+
+// color secondary 
+
+
+a:hover,
+.editor-entry a,
+.mb-post-widget .entry-metas ul li.comment a:hover, 
+.mb-post-widget .entry-metas ul li.posted-date a:hover,
+.widget_archive a:hover,
+.widget_categories a:hover,
+.widget_recent_entries a:hover,
+.widget_meta a:hover,
+.widget_product_categories a:hover,
+.widget_rss li a:hover,
+.widget_pages li a:hover,
+.widget_nav_menu li a:hover,
+.widget_rss .widget-title h3 a:hover,
+.widget_rss ul li a:hover,
+.comments-area .comment-body .reply a:hover,
+.comments-area .comment-body .reply a:focus,
+.comments-area .comment-body .fn a:hover,
+.comments-area .comment-body .fn a:focus,
+footer.dark .widget_rss ul li a:hover,
+.comments-area .comment-body .fn:hover,
+.comments-area .comment-body .fn a:hover,
+.comments-area .comment-body .reply a:hover, 
+.comments-area .comment-body .comment-metadata a:hover,
+.comments-area .comment-body .comment-metadata .edit-link:hover,
+.widget_tag_cloud .tagcloud a:hover,
+.footer.dark .widget_tag_cloud .tagcloud a:hover   {
+
+	color: $alternate_color;
+}
+
+
+
+// color special
+
+span.edit-link a,
+.widget_recent_entries .post-date,
+.mb-post-widget .entry-metas ul li.posted-date a,
+.mb-post-widget .entry-metas ul li.comment a,
+.comments-area .comment-body .reply a, 
+.comments-area .comment-body .comment-metadata a,
+.comments-area .comment-body .comment-metadata .edit-link {
+
+	color:$special_purpose_color;
+}
+
+
+
+// border color
+
+
+.author-box .top-wrap,
+.related-posts .title h3, 
+.widget_archive li,
+.widget_categories li,
+.widget_recent_entries li,
+.widget_meta li,
+.widget_recent_comments li,
+.widget_rss li,
+.widget_pages li,
+.widget_nav_menu li a,
+.mb-post-widget article,
+.widget_product_categories li {
+
+    border-bottom: 1px solid $border_color;
+}
+
+.entry-cats ul li a {
+
+	border-bottom: 1px solid $primary_color;
+}
+
+textarea,
+select,
+.author-box,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+.calendar_wrap table th,
+.calendar_wrap table td,
+.secondary-widget-area .widget,
+.widget_tag_cloud .tagcloud a {
+
+	border: 1px solid $border_color;
+}
+
+
+.entry-tags .post-tags a:hover {
+
+	border:1px solid $theme_color;
+}
+
+.widget_tag_cloud .tagcloud a:hover {
+
+	border-color:$theme_color;
+}
+
+.widget_product_categories ul li ul {
+
+	border-top:1px solid $border_color;
+}
+
+// background color
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.post-link-btn,
+body .wpcf7 input[type="submit"],
+body .wpcf7 input[type="button"], 
+.entry-metas ul li.posted-date a,
+.jetpack_subscription_widget input[type="submit"]:hover,
+.secondary-widget-area .mb-instagram-widget .follow-permalink a,
+.screen-reader-shortcut,
+body .wpforms-container .wpforms-form input[type=submit], 
+body .wpforms-container .wpforms-form button[type=submit],
+body .wpforms-container .wpforms-form .wpforms-page-button {
+
+	background: $theme_color;
+}
+
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+.post-link-btn:hover,
+.entry-tags .post-tags a:hover,
+body .wpcf7 input[type="submit"]:hover,
+body .wpcf7 input[type="button"]:hover,
+.entry-metas ul li.posted-date a:hover,
+.secondary-widget-area .mb-instagram-widget .follow-permalink a:hover,
+.jetpack_subscription_widget input[type="submit"]:hover,
+body .wpforms-container .wpforms-form input[type=submit]:hover, 
+body .wpforms-container .wpforms-form button[type=submit]:hover,
+body .wpforms-container .wpforms-form .wpforms-page-button:hover {
+
+	background: $alternate_color;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

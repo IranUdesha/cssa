@@ -1,0 +1,47 @@
+// masonry blog icons
+
+@font-face {
+
+    font-family: 'mbicon';
+    src:  url('../fonts/mbicon/mbicon.eot?oapl3c');
+    src:  url('../fonts/mbicon/mbicon.eot?oapl3c#iefix') format('embedded-opentype'),
+    url('../fonts/mbicon/mbicon.ttf?oapl3c') format('truetype'),
+    url('../fonts/mbicon/mbicon.woff?oapl3c') format('woff'),
+    url('../fonts/mbicon/mbicon.svg?oapl3c#mbicon') format('svg');
+        
+    font-weight: normal;
+    font-style: normal;
+    font-display: inline-block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+
+    font-family: 'mbicon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mb-expand:before {
+
+    content: "\e100";
+}
+.icon-mb-quote-alt-left:before {
+
+    content: "\e101";
+}
+
+.icon-mb-calendar-week:before {
+
+    content: "\e102";
+}
+
+.icon-mb-user:before {
+
+    content: "\e103";
+}

@@ -1,0 +1,401 @@
+.widget_archive ul,
+.widget_categories ul,
+.widget_recent_entries ul,
+.widget_meta ul,
+.widget_recent_comments ul,
+.widget_rss ul,
+.widget_pages ul,
+.widget_nav_menu ul,
+.widget_product_categories ul {
+
+    list-style: none;
+    margin: 0;
+    padding-left: 0px;
+    overflow:hidden;
+}
+
+.widget_product_categories ul {
+
+    margin-left: 0;
+}
+
+.widget_archive li,
+.widget_categories li,
+.widget_recent_entries li,
+.widget_meta li,
+.widget_recent_comments li,
+.widget_rss li,
+.widget_pages li,
+.widget_nav_menu li a,
+.widget_product_categories li {
+
+    position: relative;
+    padding: 15px 0;
+    margin: 0;
+}
+
+
+.widget_archive li:last-child,
+.widget_categories li:last-child,
+.widget_recent_entries li:last-child,
+.widget_meta li:last-child,
+.widget_recent_comments li:last-child,
+.widget_rss li:last-child,
+.widget_pages li:last-child,
+.widget_nav_menu li:last-child,
+.widget_product_categories li:last-child,
+.widget_nav_menu>ul>li:last-child a {
+
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.widget_archive ul li:first-child,
+.widget_categories ul li:first-child,
+.widget_product_categories ul li:first-child,
+.widget_pages ul li:first-child,
+.widget_meta ul li:first-child,
+.widget_rss li:first-child,
+.widget_recent_entries li:first-child,
+.widget_recent_comments li:first-child {
+
+    padding-top: 0;
+}
+
+.widget_archive a,
+.widget_categories a,
+.widget_recent_entries a,
+.widget_meta a,
+.widget_recent_comments li,
+.widget_rss li,
+.widget_pages li,
+.widget_nav_menu a,
+.widget_product_categories a {
+
+    padding-left: 0;
+    position: relative;
+    float:none;
+    @include transation_delay();
+}
+
+
+// Spacing ( pading left ) on widgets
+
+
+.widget_recent_entries a {
+
+    display: block;
+}
+
+.widget_recent_comments li a {
+
+    display: inline-block;
+}
+
+.widget_nav_menu li a {
+
+    padding-left: 0;
+    display: block;
+}
+
+.widget_nav_menu li a span.menu-item-description {
+    
+    display: none;
+}
+
+
+// Align count values to right side 
+
+
+.widget_archive ul li,
+.widget_categories ul li,
+.widget_product_categories ul li {
+
+    text-align:left;
+} 
+
+.widget_archive ul li a,
+.widget_categories ul li a,
+.widget_product_categories ul li a {
+    
+    display:inline-block;
+    width: 90%;
+    float:none;
+}
+
+
+
+.widget_nav_menu ul li ul,
+.widget_product_categories ul li ul,
+.widget_nav_menu ul li ul {
+
+    padding-left:20px;
+}
+
+.widget_product_categories ul li ul {
+
+    padding-top:20px;
+    margin-top:20px;
+}
+
+
+
+/*
+=======================================
+=
+= Nav menus widget
+=
+===============================================
+*/
+
+
+.widget_nav_menu li:last-child a {
+
+    border-bottom:none;
+}
+
+
+
+/*
+=======================================
+=
+= Recent posts widget 
+=
+===============================================
+*/
+
+
+
+.widget_recent_entries .post-date {
+
+    display: block;
+    margin-top: 5px;
+    padding-left: 0;
+    font-size:14px;
+}
+
+
+
+/*
+=======================================
+=
+= Archive widget
+=
+===============================================
+*/
+
+
+
+.widget_archive label {
+
+    display:block;
+    margin-bottom: 10px;
+}
+
+
+
+/*
+=======================================
+=
+= Category widget
+=
+===============================================
+*/
+
+
+.widget_categories label {
+
+    display:block;
+    margin-bottom: 10px;
+}
+
+
+
+
+/*
+=======================================
+=
+= Rss widget
+=
+===============================================
+*/
+
+.widget_rss .widget-title h3 img {
+
+    display:none;
+}
+
+
+
+
+/*
+=======================================
+=
+= Tags cloud
+=
+===============================================
+*/
+
+.widget_tag_cloud .tagcloud a {
+    
+    display: inline-block;
+    text-transform:inherit;
+    font-size: 16px !important;
+    text-align:center;
+    letter-spacing:0;
+    padding: 12px 25px;
+    line-height:1;
+    margin:4px;
+    background:transparent;
+    font-weight:400;
+}
+
+
+/*
+=======================================
+=
+= Search widget 
+=
+===============================================
+*/
+
+
+.widget_search form {
+
+    position: relative;
+}
+
+.widget_search form input[type="search"] {
+
+    width: 100%;
+    padding-right: 65px;
+    padding-left:20px;
+    -webkit-border-radius:30px;
+    -o-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+}
+
+.widget.widget_search button[type="submit"] {
+
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    width:70px;
+    -webkit-border-radius:30px;
+    -o-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+}
+
+
+
+/*
+=======================================
+=
+= Calender widget
+=
+===============================================
+*/
+
+
+.calendar_wrap caption {
+
+    text-align: center;
+    padding: 20px 0 0;
+    font-weight: 500;
+}
+
+.calendar_wrap table {
+
+    border-collapse: collapse;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.calendar_wrap table th {
+
+    font-weight: bold;
+    padding: 8px 0px;
+    text-align: center;
+    width: 5%
+}
+
+.calendar_wrap table td {
+
+    padding: 8px 0px;
+    width: 5%;
+    text-align: center;
+}
+
+.calendar_wrap table td#prev,
+.calendar_wrap table td#next {
+
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.calendar_wrap table td#next {
+
+    text-align: right;
+}
+
+
+
+/*
+=======================================
+=
+= Text widget
+=
+===============================================
+*/
+
+.secondary-widget-area .widget_text {
+
+    .textwidget {
+
+        strong,
+        p,
+        em,
+        pre,
+        code,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+
+            display: block;
+            padding: 7px 0;
+        }
+
+        img {
+
+            display: block;
+            padding: 5px 0;
+        }
+
+        select {
+
+            display: block;
+            outline: none;
+            width: 100%;
+            max-width: 100%;
+            padding: 10px;
+            text-transform: capitalize;
+            border-radius: 2px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            option {
+
+                display: block;
+                width:100%;
+                max-width: 100%;
+                white-space: nowrap;
+            }
+        }
+    }
+}

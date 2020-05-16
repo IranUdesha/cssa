@@ -1,0 +1,157 @@
+// Pagination 
+
+.pagination,
+.page-links {
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pagination .pagination-entry {
+
+    margin: 0px;
+}
+
+.pagination .page-numbers,
+.page-links .post-page-numbers {
+
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    @include border_radius(100%);
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    top: 0;
+    transition-duration: 0.3s;
+}
+
+.pagination .page-numbers:last-child,
+.page-links .post-page-numbers:last-child {
+
+    margin-right: 0px;
+}
+
+.page-links .post-page-numbers {
+
+    background-color: $theme_color;
+    color: #ffffff;
+}
+
+.page-links .post-page-numbers.current {
+
+    background-color: $alternate_color;
+}
+
+.pagination .page-numbers:hover,
+.page-links .post-page-numbers:hover {
+
+    background-color: $alternate_color;
+    position: relative;
+    top: -5px;
+    transition-duration: 0.3s;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+.page-links .post-page-numbers:hover {
+
+    background-color: #ff1744;
+    color: #ffffff;
+}
+
+.pagination .page-numbers.prev,
+.pagination .page-numbers.next {}
+
+.pagination .page-numbers.prev span {
+
+    margin-right: 5px;
+}
+
+.pagination .page-numbers.next span {
+
+    margin-left: 5px;
+}
+
+.pagination .page-numbers.current {
+
+    position: relative;
+    background-color: $theme_color;
+    color: #ffffff;
+}
+
+
+.infinite-scroll-container,
+.no-more-container,
+.load-more-btn-container {
+
+    text-align: center;
+}
+
+.infinite-scroll-container {
+
+    color: $theme_color;
+}
+
+.no-more-container {
+
+    display: none;
+}
+
+.load-more-btn,
+.no-more-to-load {
+
+    border-radius: 50px;
+}
+
+.load-more-btn .load-more-icon {
+
+    display: none;
+}
+
+
+//Ellipsis
+
+.lds-ellipsis {
+
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+
+.lds-ellipsis div {
+
+    position: absolute;
+    top: 27px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: $theme_color;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+
+    left: 6px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+
+    left: 6px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+    left: 26px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+    left: 45px;
+    animation: lds-ellipsis3 0.6s infinite;
+}

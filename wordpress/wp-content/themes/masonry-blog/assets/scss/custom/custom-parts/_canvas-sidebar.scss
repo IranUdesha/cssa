@@ -1,0 +1,66 @@
+// canvas sidebar
+
+.canvas-sidebar .canvas-sidebar-widget-area {
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height:100%;
+    min-height: 100vh;
+    width: 500px;
+    background-color: #ffffff;
+    z-index: 6;
+    transition-duration: 0.3s;
+    padding:30px;
+    overflow-y:auto;
+}
+
+.canvas-sidebar-widget-area .widget {
+    
+    border:1px solid $border_color;
+}
+
+.canvas-sidebar.mb-close .canvas-sidebar-widget-area {
+    
+    left: -100vw;
+    transition-duration: 0.3s;
+}
+
+.canvas-sidebar .canvas-sidebar-mask {
+    
+    
+    background-color: rgba(0,0,0,0);
+    transition-duration: 0.3s;
+}
+
+.canvas-sidebar.mb-open .canvas-sidebar-mask {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 6;
+    transition-duration: 0.3s;
+}
+
+.canvas-sidebar.mb-open .canvas-sidebar-widget-area {
+    
+    left: 0;
+}
+
+.canvas-sidebar-close-icon {
+
+    margin-bottom: 30px;
+}
+
+.canvas-sidebar-close-icon a.mb-close-btn {
+    
+    display: inline-block;
+    font-size: 16px;
+    width:35px;
+    height: 35px;
+    line-height:35px;
+    text-align:center;
+}

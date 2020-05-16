@@ -1,0 +1,754 @@
+# Copyright (C) 2020 Masonry Blog
+# This file is distributed under the same license as the Masonry Blog package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Masonry Blog\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:19
+msgid "404"
+msgstr ""
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: customizer/customizer.php:58
+msgid "Masonry Blog Pro"
+msgstr ""
+
+#: customizer/customizer.php:59
+msgid "Get Pro"
+msgstr ""
+
+#: customizer/fields/fields-archive.php:9
+msgid "Archive Page"
+msgstr ""
+
+#: customizer/fields/fields-archive.php:26, customizer/fields/fields-blog.php:26, customizer/fields/fields-search.php:26
+msgid "Display Featured Images"
+msgstr ""
+
+#: customizer/fields/fields-archive.php:45, customizer/fields/fields-blog.php:45, customizer/fields/fields-post.php:65, customizer/fields/fields-post.php:345, customizer/fields/fields-search.php:45
+msgid "Display Post Categories"
+msgstr ""
+
+#: customizer/fields/fields-archive.php:64, customizer/fields/fields-blog.php:64, customizer/fields/fields-post.php:84, customizer/fields/fields-post.php:366, customizer/fields/fields-search.php:64
+msgid "Display Post Date"
+msgstr ""
+
+#: customizer/fields/fields-archive.php:83, customizer/fields/fields-blog.php:83, customizer/fields/fields-post.php:103, customizer/fields/fields-post.php:387, customizer/fields/fields-search.php:83
+msgid "Display Post Author"
+msgstr ""
+
+#: customizer/fields/fields-archive.php:101, customizer/fields/fields-blog.php:101, customizer/fields/fields-page.php:64, customizer/fields/fields-post.php:489, customizer/fields/fields-search.php:120, customizer/fields/fields-static-front-page.php:64
+msgid "Select Sidebar Position"
+msgstr ""
+
+#: customizer/fields/fields-banner.php:9
+msgid "Site Carousel"
+msgstr ""
+
+#: customizer/fields/fields-banner.php:25
+msgid "Display Carousel"
+msgstr ""
+
+#: customizer/fields/fields-banner.php:60
+msgid "Select Page To Display Carousel"
+msgstr ""
+
+#: customizer/fields/fields-banner.php:61
+msgid "Set a static front page before selecting options other than &ldquo;Blog Page Only&ldquo;. Set a static front page via &ldquo;Homepage Settings&ldquo;."
+msgstr ""
+
+#: customizer/fields/fields-banner.php:97
+msgid "Carousel Width"
+msgstr ""
+
+#: customizer/fields/fields-banner.php:136
+msgid "Post Category For Carousel "
+msgstr ""
+
+#: customizer/fields/fields-banner.php:157
+msgid "Number of Posts For Carousel"
+msgstr ""
+
+#: customizer/fields/fields-banner.php:177
+msgid "Display Post Contents"
+msgstr ""
+
+#: customizer/fields/fields-banner.php:198
+msgid "Display Image Overlay"
+msgstr ""
+
+#: customizer/fields/fields-blog-archive-search.php:9
+msgid "Blog/Archive/Search"
+msgstr ""
+
+#: customizer/fields/fields-blog-archive-search.php:10
+msgid "This section contains options that are common to Blog, Archive and Search pages."
+msgstr ""
+
+#: customizer/fields/fields-blog-archive-search.php:24, customizer/fields/fields-post.php:405
+msgid "Content Alignment"
+msgstr ""
+
+#: customizer/fields/fields-blog.php:9
+msgid "Blog Page"
+msgstr ""
+
+#: customizer/fields/fields-color.php:18
+msgid "Text Color"
+msgstr ""
+
+#: customizer/fields/fields-excerpt.php:9
+msgid "Post Excerpt"
+msgstr ""
+
+#: customizer/fields/fields-excerpt.php:24
+msgid "Excerpt Length"
+msgstr ""
+
+#: customizer/fields/fields-footer.php:9
+msgid "Site Footer"
+msgstr ""
+
+#: customizer/fields/fields-footer.php:25
+msgid "Display Footer Widgets"
+msgstr ""
+
+#: customizer/fields/fields-footer.php:44
+msgid "Enable Scroll To Top"
+msgstr ""
+
+#: customizer/fields/fields-footer.php:62
+msgid "Copyright Text"
+msgstr ""
+
+#: customizer/fields/fields-header.php:8
+msgid "Site Header"
+msgstr ""
+
+#: customizer/fields/fields-header.php:17
+msgid "Site Icon"
+msgstr ""
+
+#: customizer/fields/fields-header.php:26
+msgid "Top Header"
+msgstr ""
+
+#: customizer/fields/fields-header.php:35
+msgid "Logo Section"
+msgstr ""
+
+#: customizer/fields/fields-header.php:40
+msgid "Site Title Color"
+msgstr ""
+
+#: customizer/fields/fields-header.php:43
+msgid "Site Background"
+msgstr ""
+
+#: customizer/fields/fields-header.php:71
+msgid "Display Top Header"
+msgstr ""
+
+#: customizer/fields/fields-header.php:112
+msgid "Display Header Menu"
+msgstr ""
+
+#: customizer/fields/fields-header.php:130
+msgid "Header Menu&rsquo;s Alignment"
+msgstr ""
+
+#: customizer/fields/fields-header.php:173
+msgid "Display Social Links"
+msgstr ""
+
+#: customizer/fields/fields-header.php:194
+msgid "Display Social Link&rsquo;s Title"
+msgstr ""
+
+#: customizer/fields/fields-header.php:212
+msgid "Social Link&rsquo;s Alignment"
+msgstr ""
+
+#: customizer/fields/fields-header.php:233
+msgid "Section Layout"
+msgstr ""
+
+#: customizer/fields/fields-header.php:251
+msgid "Logo Width"
+msgstr ""
+
+#: customizer/fields/fields-header.php:268
+msgid "Tagline Color"
+msgstr ""
+
+#: customizer/fields/fields-header.php:288
+msgid "Site Title&rsquo;s Font Family"
+msgstr ""
+
+#: customizer/fields/fields-header.php:300
+msgid "Menu Section"
+msgstr ""
+
+#: customizer/fields/fields-header.php:318
+msgid "Set Menu Section Sticky"
+msgstr ""
+
+#: customizer/fields/fields-header.php:337
+msgid "Display Off-Canvas Sidebar Toggle Icon"
+msgstr ""
+
+#: customizer/fields/fields-header.php:356
+msgid "Display Search Icon"
+msgstr ""
+
+#: customizer/fields/fields-header.php:391
+msgid "Menu Alignment"
+msgstr ""
+
+#: customizer/fields/fields-header.php:402
+msgid "Header Background"
+msgstr ""
+
+#: customizer/fields/fields-page.php:9
+msgid "Page Single"
+msgstr ""
+
+#: customizer/fields/fields-page.php:26, customizer/fields/fields-post.php:46, customizer/fields/fields-post.php:324, customizer/fields/fields-static-front-page.php:46
+msgid "Display Featured Image"
+msgstr ""
+
+#: customizer/fields/fields-page.php:45, customizer/fields/fields-post.php:469
+msgid "Enable Common Sidebar Position"
+msgstr ""
+
+#: customizer/fields/fields-pages.php:8
+msgid "Site Pages"
+msgstr ""
+
+#: customizer/fields/fields-pagination.php:9, customizer/functions/customizer-choices.php:123
+msgid "Pagination"
+msgstr ""
+
+#: customizer/fields/fields-pagination.php:23
+msgid "Pagination Type"
+msgstr ""
+
+#: customizer/fields/fields-post.php:9
+msgid "Post Single"
+msgstr ""
+
+#: customizer/fields/fields-post.php:27
+msgid "Post Content"
+msgstr ""
+
+#: customizer/fields/fields-post.php:122
+msgid "Display Post Tags"
+msgstr ""
+
+#: customizer/fields/fields-post.php:165
+msgid "Author Section"
+msgstr ""
+
+#: customizer/fields/fields-post.php:184, customizer/fields/fields-post.php:266
+msgid "Display Section"
+msgstr ""
+
+#: customizer/fields/fields-post.php:203, customizer/fields/fields-post.php:285
+msgid "Section Title"
+msgstr ""
+
+#: customizer/fields/fields-post.php:247
+msgid "Related Posts Section"
+msgstr ""
+
+#: customizer/fields/fields-post.php:304
+msgid "Number of Related Posts"
+msgstr ""
+
+#: customizer/fields/fields-post.php:450, inc/custom-fields.php:26
+msgid "Sidebar Position"
+msgstr ""
+
+#: customizer/fields/fields-search.php:9
+msgid "Search Page"
+msgstr ""
+
+#: customizer/fields/fields-search.php:102
+msgid "Exclude Pages From Search Results"
+msgstr ""
+
+#: customizer/fields/fields-sidebar.php:9
+msgid "Site Sidebar"
+msgstr ""
+
+#: customizer/fields/fields-sidebar.php:25
+msgid "Enable Sticky Sidebar"
+msgstr ""
+
+#: customizer/fields/fields-sidebar.php:44
+msgid "Show Sidebar In Small Devices"
+msgstr ""
+
+#: customizer/fields/fields-sidebar.php:63
+msgid "Enable Global Sidebar Position"
+msgstr ""
+
+#: customizer/fields/fields-sidebar.php:81
+msgid "Select Global Sidebar Position"
+msgstr ""
+
+#: customizer/fields/fields-static-front-page.php:9
+msgid "Static Front Page"
+msgstr ""
+
+#: customizer/fields/fields-static-front-page.php:10
+msgid "Settings that are here only works for static front page. Set a static front page via &ldquo;Homepage Settings&ldquo;."
+msgstr ""
+
+#: customizer/fields/fields-static-front-page.php:27
+msgid "Display Page Title"
+msgstr ""
+
+#: customizer/fields/fields-subscription.php:9
+msgid "Subscription/Newsletter"
+msgstr ""
+
+#: customizer/fields/fields-subscription.php:25
+msgid "Enter Shortcode"
+msgstr ""
+
+#. translators: 1: MailChimp plugin's URL, 2: MailPoet plugin's URL.
+#: customizer/fields/fields-subscription.php:27
+msgid "For subscription/newsletter, either <a href=\"%1$s\" target=\"_blank\">MailChimp</a> or <a href=\"%2$s\" target=\"_blank\">MailPoet</a> plugins can be used. Use either of them to create a subscription/newsletter form, then copy and paste the form&rsquo;s shortcode below."
+msgstr ""
+
+#: customizer/fields/fields-subscription.php:45
+msgid "Display On Home Page"
+msgstr ""
+
+#: customizer/fields/fields-subscription.php:64
+msgid "Display On Archive Page"
+msgstr ""
+
+#: customizer/fields/fields-subscription.php:83
+msgid "Display On Search Page"
+msgstr ""
+
+#: customizer/fields/fields-subscription.php:102
+msgid "Display On Post Single"
+msgstr ""
+
+#: customizer/fields/fields-subscription.php:121
+msgid "Display On Page Single"
+msgstr ""
+
+#: customizer/fields/global-color.php:8
+msgid "Global Colors"
+msgstr ""
+
+#: customizer/fields/global-color.php:17
+msgid "Theme Colors"
+msgstr ""
+
+#: customizer/fields/global-color.php:35
+msgid "Theme Color"
+msgstr ""
+
+#: customizer/fields/global-color.php:54
+msgid "Alternate Color"
+msgstr ""
+
+#: customizer/fields/global-options.php:8
+msgid "Global Options"
+msgstr ""
+
+#: customizer/fields/global-options.php:17
+msgid "Accessibility"
+msgstr ""
+
+#: customizer/fields/global-options.php:34
+msgid "Enable Link Decoration"
+msgstr ""
+
+#: customizer/fields/global-options.php:53
+msgid "Enable Link Outline"
+msgstr ""
+
+#: customizer/fields/global-typo.php:8
+msgid "Global Typography"
+msgstr ""
+
+#: customizer/fields/global-typo.php:20
+msgid "Body"
+msgstr ""
+
+#: customizer/fields/global-typo.php:37, customizer/fields/global-typo.php:68
+msgid "Font Family"
+msgstr ""
+
+#: customizer/fields/global-typo.php:51
+msgid "Headings"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:65, inc/custom-fields.php:51
+msgid "Fullwidth"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:66
+msgid "Boxed"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:84
+msgid "Logo"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:85
+msgid "Logo + Advertisement"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:103, inc/custom-fields.php:50
+msgid "Left"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:104
+msgid "Center"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:105, inc/custom-fields.php:49
+msgid "Right"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:124
+msgid "Load more on scroll"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:125
+msgid "Load more on button click"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:143
+msgid "Blog Page Only"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:144
+msgid "Static Front Page Only"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:145
+msgid "Blog Page &amp; Static Front Page"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:156
+msgid "Standard Fonts"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:157
+msgid "Google Fonts"
+msgstr ""
+
+#: functions.php:54
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:55
+msgid "Top Header Menu"
+msgstr ""
+
+#: functions.php:56
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:120
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:122, functions.php:132, functions.php:142, functions.php:152, functions.php:162, functions.php:172
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:130
+msgid "Footer Left"
+msgstr ""
+
+#: functions.php:140
+msgid "Footer Middle"
+msgstr ""
+
+#: functions.php:150
+msgid "Footer Right"
+msgstr ""
+
+#: functions.php:160
+msgid "Off Canvas Sidebar"
+msgstr ""
+
+#: functions.php:170
+msgid "Header Advertisement Area"
+msgstr ""
+
+#: header.php:31
+msgid "Skip to content"
+msgstr ""
+
+#: inc/template-functions.php:356
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-functions.php:363
+msgid "Previous Post"
+msgstr ""
+
+#: inc/theme-functions.php:156
+msgid "Search for:"
+msgstr ""
+
+#: inc/theme-functions.php:156
+msgctxt "placeholder"
+msgid "Type here to search"
+msgstr ""
+
+#. translators: %s: author link
+#: inc/theme-functions.php:384
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: inc/theme-functions.php:389
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/theme-functions.php:392
+msgid "(Edit)"
+msgstr ""
+
+#: inc/theme-functions.php:398
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/theme-hooks.php:252
+msgid "Load More"
+msgstr ""
+
+#: inc/theme-hooks.php:285
+msgid "Nothing More To Load"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:29
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:66, template-parts/single/content-single.php:88
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: 1: copyright text, 2: theme name, 3: author name and link
+#: template-parts/footer/sections/footer-bottom.php:17
+msgid "%1$s %2$s, WordPress theme by %3$s"
+msgstr ""
+
+#. translators: 1: theme name, 2: author name and link
+#: template-parts/footer/sections/footer-bottom.php:20
+msgid "%1$s, WordPress theme by %2$s"
+msgstr ""
+
+#: template-parts/header/sections/primary-menu.php:13
+msgid "Menu"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/single/content-single.php:60
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: widgets/about-widget.php:17
+msgid "MB: Author Widget"
+msgstr ""
+
+#: widgets/about-widget.php:20
+msgid "Displays information about author."
+msgstr ""
+
+#: widgets/about-widget.php:236, widgets/post-widget.php:186, widgets/social-widget.php:210
+msgid "Title"
+msgstr ""
+
+#: widgets/about-widget.php:243
+msgid "Author&rsquo;s Image"
+msgstr ""
+
+#: widgets/about-widget.php:245
+msgid "Upload image with aspect ratio 1:1"
+msgstr ""
+
+#: widgets/about-widget.php:252
+msgid "Upload"
+msgstr ""
+
+#: widgets/about-widget.php:257
+msgid "Author&rsquo;s Name"
+msgstr ""
+
+#: widgets/about-widget.php:264
+msgid "Author&rsquo;s Description"
+msgstr ""
+
+#: widgets/about-widget.php:271, widgets/social-widget.php:238
+msgid "Facebook Link"
+msgstr ""
+
+#: widgets/about-widget.php:278, widgets/social-widget.php:245
+msgid "Twitter Link"
+msgstr ""
+
+#: widgets/about-widget.php:285, widgets/social-widget.php:252
+msgid "Instagram Link"
+msgstr ""
+
+#: widgets/about-widget.php:292, widgets/social-widget.php:259
+msgid "Linkedin Link"
+msgstr ""
+
+#: widgets/about-widget.php:299, widgets/social-widget.php:266
+msgid "Pinterest Link"
+msgstr ""
+
+#: widgets/about-widget.php:306, widgets/social-widget.php:273
+msgid "YouTube Link"
+msgstr ""
+
+#: widgets/about-widget.php:313, widgets/social-widget.php:280
+msgid "VK Link"
+msgstr ""
+
+#: widgets/about-widget.php:320
+msgid "Button&rsquo;s Title"
+msgstr ""
+
+#: widgets/about-widget.php:327
+msgid "Button&rsquo;s Link"
+msgstr ""
+
+#: widgets/post-widget.php:17
+msgid "MB: Recent Post Widget"
+msgstr ""
+
+#: widgets/post-widget.php:20
+msgid "Displays recent posts."
+msgstr ""
+
+#: widgets/post-widget.php:194, widgets/social-widget.php:218
+msgid "Layout 1"
+msgstr ""
+
+#: widgets/post-widget.php:195, widgets/social-widget.php:219
+msgid "Layout 2"
+msgstr ""
+
+#: widgets/post-widget.php:199, widgets/social-widget.php:223
+msgid "Select Layout"
+msgstr ""
+
+#: widgets/post-widget.php:214
+msgid "No of Posts"
+msgstr ""
+
+#: widgets/post-widget.php:222
+msgid "Display Count Number"
+msgstr ""
+
+#: widgets/post-widget.php:229
+msgid "Display Author&rsquo;s Name"
+msgstr ""
+
+#: widgets/post-widget.php:236
+msgid "Display Posted Date"
+msgstr ""
+
+#: widgets/social-widget.php:17
+msgid "MB: Social Link Widget"
+msgstr ""
+
+#: widgets/social-widget.php:20
+msgid "Displays social links."
+msgstr ""
+
+#: widgets/social-widget.php:131
+msgid "Facebook"
+msgstr ""
+
+#: widgets/social-widget.php:139
+msgid "Twitter"
+msgstr ""
+
+#: widgets/social-widget.php:147
+msgid "Instagram"
+msgstr ""
+
+#: widgets/social-widget.php:155
+msgid "Pinterest"
+msgstr ""
+
+#: widgets/social-widget.php:163
+msgid "Youtube"
+msgstr ""
+
+#: widgets/social-widget.php:171
+msgid "Linkedin"
+msgstr ""
+
+#: widgets/social-widget.php:179
+msgid "VK"
+msgstr ""

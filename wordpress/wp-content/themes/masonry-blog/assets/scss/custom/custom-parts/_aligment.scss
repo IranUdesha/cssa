@@ -1,0 +1,78 @@
+.alignleft {
+
+    display: inline;
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+
+    display: inline;
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+
+.verticle-center {
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+// gutenberg aligment ( full width & wide width )
+
+
+body.no-sidebar .alignfull {
+
+    width: 90vw;
+    max-width: 90vw;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+body.no-sidebar .alignwide {
+
+    width: 70vw;
+    width: 70vw;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+body.no-sidebar.boxed .alignfull,
+body.no-sidebar.boxed .alignwide {
+
+    width: 100%;
+    max-width: 100%;
+    margin-left: inherit;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+.center-aligned {
+
+    text-align: center;
+}
+
+.left-aligned {
+
+    text-align: left;
+}
+
+.right-aligned {
+
+    text-align: right;
+}
